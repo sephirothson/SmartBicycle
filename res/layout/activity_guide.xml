@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff" >
+
+        <View
+            android:id="@+id/guideback"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="流程介绍"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#c8c7cc" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/buka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listitem_selector"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" 如何办理宁波公共自行车挂失、补卡?"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/con1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="    1.甬城通A、B、C、D、E 卡遗失时，可按《宁波市甬城通公交IC卡申领及使用须知》进行挂失；补卡时，该卡应处非租车状态。T卡挂失时则按T卡相关规定办理手续（卡内金额遗失不退），退还信用保证金。\n    2.对已挂失的IC卡，本公司不负责找回。挂失至补卡期间的所涉损失，本公司恕不负责。\n    3.IC卡挂失后，若被重新找回，可携带身份证原件到相关网点办理挂失卡重新启用手续，次日起五个工作日后此卡方可使用。\n   4.IC卡遗失后，该卡处租车状态的，应及时到公共自行车服务点办理还车手续，结清租车费用后才能办理补卡业务，未办理挂失所造成的损失，由持卡人承担。"
+                    android:textColor="#777777"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#c8c7cc" />
+
+            <LinearLayout
+                android:id="@+id/banka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listitem_selector"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" 如何办理宁波公共自行车租车卡?"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/con2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="    1.凡拥有甬城通公交IC卡的持卡人，年龄在12周岁以上至70周岁以下可申请开通租车业务。\n    2. 办卡时凭本人身份证原件，签署租用协议且需交纳200元租车信用保证金和不少于5元预存资费。\n   3、一人仅能开通一卡，限本人使用，不得转借。"
+                    android:textColor="#777777"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#c8c7cc" />
+
+            <LinearLayout
+                android:id="@+id/shoufei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listitem_selector"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" 宁波公共自行车租车计费标准?"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/con3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="    1小时内免费租用；1小时以上2小时及以下部分，每车次1元；2小时以上3小时及以下部分，每车次2元；3小时以上部分，每车次按每小时3元计费，不足1小时部分，按1小时计费。"
+                    android:textColor="#777777"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#c8c7cc" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="200dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
